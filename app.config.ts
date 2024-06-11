@@ -8,14 +8,14 @@ import { ethereum3 } from "./contracts/address";
 
 // URIs
 export const APP_URI_LOCALHOST = "http://localhost:3000";
-export const APP_URI_MAINNET = "https://app.frankencoin.com";
+export const APP_URI_MAINNET = "https://frankencoin.blockbite.ch";
 export const APP_URI_MAINDEV = "https://devapp.frankencoin.com";
 export const APP_URI_DEVELOPER = "https://app.frankencoin.3dotshub.com";
 
 export const PONDER_URI_LOCALHOST = "http://localhost:42069";
 export const PONDER_URI_MAINNET = "https://mainnetponder.frankencoin.com";
 export const PONDER_URI_MAINDEV = "https://maindevponder.frankencoin.com";
-export const PONDER_URI_DEVELOPER = "https://ponder.frankencoin.3dotshub.com";
+export const PONDER_URI_DEVELOPER = "https://ponder-frankencoin.blockbite.ch";
 export const PONDER_URI_DEVELOPER_ETH3 = "https://eth3.ponder.frankencoin.3dotshub.com";
 
 // >>>>>> SELECTED URI HERE <<<<<<
