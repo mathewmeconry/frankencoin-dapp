@@ -1,0 +1,15 @@
+.dev/
+.ponder/
+generated/
+node_modules/
+.env
+.env.example
+.gitignore
+.prettierrc.json
+Dockerfile
+README.md
+.eslintrc.json
+.gitignore
+.prettierignore
+.prettierrc.json
+CNAME
