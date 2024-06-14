@@ -31,7 +31,7 @@ export const PONDER_CLIENT = new ApolloClient({
 
 // WAGMI CONFIG
 // FIXME: move to env or white list domain
-export const WAGMI_PROJECT_ID = "26fb3341cffa779adebdb59dc32b24e5";
+export const WAGMI_PROJECT_ID = "076010041a25f4050ea9dd2e27ff3107";
 export const WAGMI_CHAIN = mainnet;
 export const WAGMI_METADATA = {
 	name: "Frankencoin",
