@@ -16,7 +16,7 @@ export default function TableRow({ colSpan, children, actionCol, link }: Props) 
 			}`}
 			href={link || "#"}
 		>
-			<div className="flex flex-col justify-between gap-y-5 md:flex-row md:space-x-4">
+			<div className="flex pl-8 flex-col justify-between gap-y-5 md:flex-row md:space-x-4">
 				<div
 					className={`grid flex-grow grid-cols-1 gap-3 sm:grid-cols-${
 						colSpan || children.length
