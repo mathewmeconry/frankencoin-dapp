@@ -43,5 +43,9 @@ jobs:
             with:
               context: .
               push: true
+              build-args: |
+                "NEXT_PUBLIC_APP_URL=https://frankencoin.blockbite.ch"
+                "NEXT_PUBLIC_PONDER_URL=https://ponder-frankencoin.blockbite.ch"
+                "NEXT_PUBLIC_WAGMI_ID=076010041a25f4050ea9dd2e27ff3107"
               tags: ${{ steps.meta.outputs.tags }}
               labels: ${{ steps.meta.outputs.labels }}
